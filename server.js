@@ -1,14 +1,12 @@
-const express = require('express');
+import express from 'express';
 
 const app = express();
 
-let UsersJson = require('./users.js');
-
-let users = UsersJson.users;
+import User from './users.js';
 
 app.get('/', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.send(users);
+    res.send(User);
 });
 
 app.listen(3001, () => console.log('Example app is listening on port 3000.'));

@@ -1,0 +1,26 @@
+{
+  "name": "robofriends-api",
+  "version": "1.0.0",
+  "description": "Quick Start",
+  "main": "server.js",
+  "dependencies": {},
+  "type": "module",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avutzhan/robofriends-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avutzhan/robofriends-api/issues"
+  },
+  "homepage": "https://github.com/Avutzhan/robofriends-api#readme"
+}
